@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4G5DVR6FCK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4G5DVR6FCK');
+</script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilyas</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <!--<link rel="stylesheet" href="style2.css"> -->
+
+</head>
+
+<body>
+
+    <section id="header">
+        <div class="navbar-title">
+            <h3 class="title-first-name">
+                Ilyas Bajji
+            </h3>
+           
+        </div>
+        <div>
+            <ul class="navbar-menu">
+                <li><a class="profile-card-active" href="#aboutme"> About </a></li>
+                <li><a class="profile-card-active" href="#introduction">Works</a></li>
+                <li><a class="profile-card-active" href="#skill">Skills</a></li>
+                <li><a class="profile-card-active" href="#footer">Contacts</a></li>
+
+            </ul>
+        </div>
+        <div>
+            <ul class="social-media">
+                <li>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <a href="https://www.linkedin.com/in/ilyas-bajji-6014b31b3" target="_blank">LinkedIn</a>
+                </li>
+                <li>
+                    <i class="fa-brands fa-github"></i>
+                    <a href="https://github.com/tryptoph" target="_blank">Github</a>
+                </li>
+                <li>
+                    <i class="fa-regular fa-envelope"></i>
+                    <a href="mailto:ilyassbajji53@gmail.com">Email</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="content-body">
+        <div class="body-part-1">
+            <div class="developer-intro">
+                <p>developer enthusiast</p>
+                <p>Security Enthusiast</p>
+            </div><br>
+             <h2><span id="greetingText">Stay safe from cyber</span></h2>
+             <script>
+                       const greetings = [
+  'Stay safe from cyber','साइबर से सुरक्षित रहें','সাইবার থেকে নিরাপদ থাকুন','サイバーから安全に過ごしてください','Restez en sécurité contre le cyber','Mantente seguro del ciber','保持网络安全','Bleib sicher vor Cybergefahren', 'சைபர் ஆபத்திலிருந்து பாதுகாப்பாக இருங்கள்','Fanacht sábháilte ón gcibear','Manténgase seguro del ciber','Bleiben Sie sicher vor Cyber','Stai al sicuro dal cyber','שמור על עצמך בטוח מפני סייבר','Оставайтесь в безопасности от киберугроз','ابق آمناً من الخطر السيبراني','Hãy an toàn khỏi mối đe dọa mạng'];
+                        let index = 0;
+                
+                        function changeGreeting() {
+                            const greetingTextElement = document.getElementById('greetingText');
+                
+                            greetingTextElement.style.opacity = 0; // Fade out
+                
+                            setTimeout(() => {
+                                greetingTextElement.innerHTML = greetings[index]; // Update greeting content
+                                greetingTextElement.style.opacity = 1; // Fade in
+                                index = (index + 1) % greetings.length;
+                            }, 500); // Wait for fade out before updating greeting content
+                        }
+                
+                        setInterval(changeGreeting, 5000); // 2 seconds interval (including fade in/out time)
+                    </script>
+                    
+                    <div class="body-title">
+                        <h1>CyberSecurity Student<br>CTF player</h1>
+                        <p>Formulating a Secure and User-Focused Digital Future</p>
+                        <!-- Add inline style to the button element -->
+                        <button style="padding: 15px 30px; font-size: 20px; background-color: #64f4ac; color: #2d2e32; border: none; cursor: pointer; border-radius: 5px;" onclick="downloadCV()">Check CV</button>
+
+
+
+                    </div>
+                    
+                    <script>
+                    function downloadCV() {
+                        // Replace 'path_to_your_cv.pdf' with the actual path to your PDF file
+                        var pdfPath = 'cv.pdf';
+                        
+                        var link = document.createElement('a');
+                        link.href = pdfPath;
+                        link.download = 'your_cv.pdf'; // The name of the downloaded file
+                        document.body.appendChild(link);
+                        link.click();
+                        document.body.removeChild(link);
+                    }
+                    </script>
+                                            
+            <div class="body-tail">
+                <h1>2+
+                </h1>
+                <p>Certificatons<br>EXPERIENCE</p>
+                <h1>4</h1>
+                <p>PROJECTS<br>COMPLETED</p>
+            </div>
+        </div>
+        <div class="body-part-2">
+            <div class="container">
+                
+                <div class="svg-animation">
+                  <img src="assets/cyber.svg">
+                </div>
+              
+                
+                
+              </div>
+            </div>
+         
+      
+    </section>
+    <section id="aboutme">
+        <div class="body-part-2">
+            <div class="container">
+                
+                <div class="svg-animation">
+                  <img src="assets/who.svg">
+                </div>
+              
+                
+                
+              </div>
+            </div>
+        <div class="body-part-1">
+            <div class="body-title">
+                <!-- <h1>Talk is cheap<br>Show me the code</h1> -->
+                <h1>Who Am I?</h1>
+                <p>Ilyas here, a human being, passionate about programming and cybersecurity.<br>
+                    Pursuing Enginnering degree in Cybersecurity at School of Information Sciences [ESI].<br>
+                    
+                    Explored Binary exploitation, networking  protocols, cryptography, web security, ethical hacking during my studies <br>
+                    Certified in various domains, from CTF to Ethical Hacking, building a well-rounded foundation.<br>
+                    Beyond tech, I'm an adventure junkie - trekking and gaming are my go-tos.<br>
+                    Staying current with the latest tech trends is a must for me.<br>
+                    Fluent in French and English, and have a basic grasp of German, facilitating global connections.<br>
+                    Join me in my journey through front-end development and cybersecurity - let's learn and grow together!
+                     </p>
+                <a href="https://www.linkedin.com/in/ilyas-bajji-6014b31b3">LET'S Connect!</a>
+            </div>
+         
+        </div>
+       
+              
+                
+                
+              </div>
+            </div>
+         
+      
+    </section>
+
+    <section id="introduction">
+        <div class="heading-container">
+            <h3 class="section-heading">Latest Projects</h3>
+            <p>Perfect solutions for digital experience</p>
+           
+        </div>
+        
+        <div class="cards-container">
+        <div class="cards">
+
+           
+            <div class="design-card active">
+                <a href="https://github.com/tryptoph/Train-reservation-system" target="_blank" class="no-decoration"><div>
+                    <h3>JAVA app : Ticket Reservation System</h3>
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                </div>
+                <p>The project proposes an java application that help the administrator to manage trips,discount cards,beneficiary and generate statical report about reservationa and sales. Also, the user can reserve a ticket, buy it and print it. </p>
+            </a>
+            </div>
+            <div class="design-card">
+                <a href="https://github.com/tryptoph/keylogger-mail" target="_blank" class="no-decoration">
+                <div>
+                    <h3>keylogger</h3>
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <p>A keylogger with email feature.
+                    I can send the keylogs file from my email to my email, to troubleshoot any upcoming problems like forgetting a password or to see any misconfiguration.</p>
+            </a>
+            </div>
+            <div class="design-card">
+                <a href="https://github.com/tryptoph/snmm" target="_blank" class="no-decoration">
+                <div>
+                    <h3>Static Website that introduces SNMM company  </h3>
+                    <i class="fa-solid fa-terminal"></i>
+                </div>
+                <p>This website is simple html and css that illustrates the company history,environemnt,prducts and testimonials.</p>
+            </a>
+            </div>
+            <div class="design-card">
+                <a href="https://github.com/tryptoph/snmm_tickets" target="_blank" class="no-decoration">
+                <div>
+                    <h3>
+                        Ticketing system  for the SNMM company
+                        </h3>
+                    <i class="fa-solid fa-terminal"></i>
+                </div>
+                <p>I crafted an web app in PHP that helps the company SNMM to manage issues and departments relationship </p>
+            </a>
+            </div>
+
+        </div>
+    </div>
+        
+        </div>
+        <div class="image-container">
+            <div class="body-part-2">
+                <div class="container">
+                    
+                    <div class="svg-animation">
+                      <img src="assets/project.svg">
+                    </div>
+                  
+                </div>
+                    
+                  </div>
+                </div>
+    </section>
+    <section id="skill">
+        <div class="heading-container">
+            <h3 class="section-heading">Skills</h3>
+            
+           
+        </div>
+        <div class="image-container">
+            <div class="body-part-2">
+                <div class="container">
+                    
+                    <div class="svg-animation">
+                      <img src="assets/skill.svg">
+                    </div>
+                  
+                </div>
+                    
+                  </div>
+                </div>
+        <div class="cards-container">
+        <div class="cards">
+           
+            <div class="design-card active">
+                <div>
+                    <h3>Cybersecurity</h3>
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                </div>
+                <p>Threat Detection • Network Security • Cybersecurity Architecture • Ethical Hacking • Social Engineering • Information Security Management System (ISMS) • IT Audit • IT Security Assessments • Penetration Testing</p>
+                
+            </div>
+            <div class="design-card">
+                <div>
+                    <h3>Web Development</h3>
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <p>Java • Python • SQL  • JavaScript • HTML • Cascading Style Sheets (CSS) • Front-End Development • PHP</p>
+                
+            </div>
+            <div class="design-card">
+                <div>
+                    <h3>Others</h3>
+                    <i class="fa-solid fa-terminal"></i>
+                </div>
+                <p> • Computer Science • Software Development • English • Project Management • Engineering • Communication • Training • Leadership • Marketing • Customer Service • Microsoft Office</p>
+                
+            </div>
+            
+        </div>
+    </div>
+        
+        </div>
+      
+    </section>
+ 
+    <section id="footer">
+        <div class="footer-left">
+            <form
+    action="https://formspree.io/f/xgegdjnr"
+method="POST">
+            <h2>Let's make something amazing together</h2>
+
+            <div class="email-form">
+                   
+                <h2>Start by <span>saying hi</span></h2>
+               
+                <input type="text" name="name" id="" placeholder="Your name">
+                <input type="email" name="email" id="" placeholder="Email Address">
+                <div>
+                    <input type="text" name="Messgae" id="" placeholder="Messgae">
+                    <button type="submit">Send</button>
+                </div>
+                    </form>
+            </div>
+
+            <div class="footer-title">
+                <h3 class="title-first-name">
+                    Ilyas
+                </h3>
+                <h3 class="title-last-name">
+                  Bj
+                </h3>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div class="footer-email-intro">
+                <p>Information</p>
+                <h6>Mohammedia, Morocco </h6>
+                <h3>ilyassbajji53@gmail.com</h3>
+            </div>
+            <div class="footer-nav-menu">
+                <ul class="footer-menu">
+                    <li><a class="profile-card-active" href="#aboutme"> About </a></li>
+                    <li><a class="profile-card-active" href="#introduction">Works</a></li>
+                    <li><a class="profile-card-active" href="#skill">Skills</a></li>
+                  
+                </ul>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/ilyas-bajji-6014b31b3" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/tryptoph" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                
+              
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            
+            </div>
+        </div>
+    </section>
+    
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
